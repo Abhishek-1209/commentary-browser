@@ -1,8 +1,6 @@
 #  Commentary Browser
 
-This is a React-based project built as part of a frontend evaluation task for the interview process.
-
-The application fetches comments and posts from a public API, displays them in a table, and allows basic interaction such as searching, editing, and pagination.
+The is React-based application fetches comments and posts from a public API, displays them in a table, and allows basic interaction such as searching, editing, and pagination.
 
 ---
 
