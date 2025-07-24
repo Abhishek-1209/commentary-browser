@@ -1,0 +1,75 @@
+tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  td {
+    vertical-align: top;
+    padding: 12px;
+  }
+  
+  .editable-cell {
+    cursor: pointer;
+  }
+  
+  input,
+  textarea {
+    font-family: inherit;
+    font-size: 14px;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .edit-icon {
+    font-size: 12px;
+    margin-left: 6px;
+    color: #888;
+    visibility: hidden;
+  }
+  
+  .editable-cell:hover .edit-icon {
+    visibility: visible;
+  }
+  .cell-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6px;
+  }
+  .edit-icon {
+    transition: opacity 0.2s;
+  }
+  @media (max-width: 768px) {
+    td {
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+      padding: 8px 0;
+      border-bottom: 1px solid #eee;
+    }
+  
+    tr {
+      display: block;
+      margin-bottom: 12px;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      padding: 12px;
+      background-color: white;
+    }
+  
+    .cell-content {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    input,
+    textarea {
+      width: 100% !important;
+    }
+  
+    .edit-icon {
+      align-self: flex-end;
+      margin-top: 4px;
+    }
+  }
+    
